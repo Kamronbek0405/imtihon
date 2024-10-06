@@ -10,7 +10,7 @@ import { Link } from 'react-router-dom'
 
 export const Malumot = () => {
   const obj = useParams();
-  const data = productData.find((item) => item.id == obj.id)
+  const data = productData.find((item) => item.id == obj.id, )
   return (
     <div>
       <div className='w-[100%] h-[70vh] flex items-center justify-center  bg-[url("/src/page/shop/components/malumot/single-img/Banner.png")] bg-no-repeat '>
